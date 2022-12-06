@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Henny+Penny&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main: rgba(144, 31, 237, 0.718);
+    --sec: #fff;
+    --main-font: 'Henny Penny', 'Fredericka the Great', cursive;
+
+}
+
+body,
+main {
+    width: 100%;
+    min-width: 90%;
+    height: 100vh;
+    max-height: 100vh;
+    background:
+        url("image/mountains_front.png") no-repeat,
+        url("image/mountains_back.png") no-repeat,
+        url("image/stars.png") no-repeat,
+        url("image/ClutteredUglyHypsilophodon-size_restricted.gif") no-repeat center,
+        var(--main);
+    background-size: cover, cover, cover, cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    z-index: 1000;
+}
+
+#logo {
+    float: left;
+    height: 70px;
+    padding: 20px 30px;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    color: var(--sec);
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.sec-side-header ul {
+    list-style: none;
+}
+
+.sec-side-header ul>li {
+    float: left;
+}
+
+.sec-side-header ul li a {
+    display: inline-block;
+    padding: 26px 4px;
+}
+
+.sec-side-header ul li a img {
+    width: 30px;
+    height: 20px;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: var(--main-font);
+}
+
+menu>li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px 30px;
+    height: 70px;
+    line-height: 30px;
+    color: var(--sec);
+    text-decoration: none;
+
+}
+
+.last-side-header {
+    padding: 20px 12px;
+    height: 70px;
+    min-width: 240px;
+    line-height: 30px;
+}
+
+.last-side-header a {
+    padding: 10px 30px;
+    color: var(--sec);
+    text-decoration: none;
+    background-color: rgba(211, 212, 214, 0.686);
+    border: none;
+    border-radius: 50px;
+    font-family: var(--main-font);
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+.sec-side-header {
+    float: left;
+}
+
+menu {
+    float: left;
+    margin-left: 30%;
+}
+
+.last-side-header {
+    float: left;
+}
+
+a:hover {
+    color: #F10086;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+section {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 160px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: var(--main-font)
+}
+
+section a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.868);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    color: rgba(140, 159, 255, 0.825);
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
